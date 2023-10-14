@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>YouTube Thumbnail Downloader</title>
+
+  <header>
+    <a href="#">
+    <img
+      src=""
+      alt="Header Logo" alt="Header Logo" style="width:600px; height:150px;">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="https://www.obaidschool.com/2023/05/age-calculator-website-free.html">Home</a></li>
+        <li><a href="https://agecalculatorfreeforall.blogspot.com/2023/05/blog-post.html">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <style>
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+  
+
+  <style>
+
+/* Center logo and align menu items horizontally */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the logo */
+header img {
+  width: 150px;
+  height: 50px;
+}
+
+/* Style the menu */
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+    /* Styling for the heading */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+  color: #333;
+}
+
+/* Styling for the form */
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Styling for the input fields */
+input[type="text"] {
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  margin-right: 10px;
+}
+
+/* Styling for the Calculate button */
+input[type="button"] {
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+input[type="button"]:hover {
+  background-color: #444;
+}
+
+/* Styling for the age display */
+#age {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 50px;
+  color: #333;
+}
+
+/* Styling for the error message */
+#message {
+  font-size: 24px;
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styling for the result message */
+#result {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+/* Style the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the logo */
+header img {
+  height: 50px; /* Set the height of the logo */
+}
+
+/* Style the menu */
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  margin-right: 20px; /* Add some space between each menu item */
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333; /* Change the text color of the links */
+}
+
+header nav a:hover {
+  color: blue; /* Change the text color of the links when hovered over */
+}
+
+#block1 {
+  background-color: teal; /* Set the background color */
+  height: 300px; /* Set the height */
+  width: 50%; /* Set the width */
+  float: left; /* Float the element to the left */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 5px 5px 5px #888; /* Add a slight shadow */
+}
+
+#block2 {
+  background-color: coral; /* Set the background color */
+  height: 300px; /* Set the height */
+  width: 50%; /* Set the width */
+  float: left; /* Float the element to the left */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 5px 5px 5px #888; /* Add a slight shadow */
+}
+#block1 {
+    background-color: #ccc;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #block2 {
+    background-color: #eee;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+  }
+
+  p {
+    font-family: Arial, sans-serif;
+    color: #666;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  footer {
+  background-color: #333;
+  height: 50px;
+}
+footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin-right: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+h1 {
+  
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2F4F4F;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+h1 {
+  background-color: rgb(8, 40, 216);
+  border-radius: 10px;
+}
+h2 {
+  
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2F4F4F;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+h2 {
+background-color: rgb(170, 40, 0);
+border-radius: 10px;
+}
+
+    </style>
+</head>
+<body>
+<!DOCTYPE html>
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<title>Youtube Thumbnail Downloader</title>
+
+<!--OST Widget code start--><div style="text-align:right;"><div style="min-height:360px;"><div style="width:100%;height:0;padding-bottom:50%;position:relative;"><iframe style="border:none;position:absolute;top:0;left:0;width:100%;height:100%;min-height:360px;border:none;overflow:hidden !important;" src="https://openspeedtest.com/Get-widget.php"></iframe></div></div><!-- OST Widget code end -->
+
+<footer>
+  <nav>
+    <ul>
+      <li><a href="https://www.obaidschool.com/">Privacy Policy</a></li>
+      <li><a href="https://www.aioustudy.pk/">Terms of Use</a></li>
+      <li><a href="https://www.jobshighlight.com/">Contact Us</a></li>
+    </ul>
+  </nav>
+</footer>
+
+</body>
+</html> 
